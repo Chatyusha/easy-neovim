@@ -44,3 +44,11 @@ set shell=zsh
 runtime plugins/dein.vim
 
 colorscheme default
+
+"{{ TEST SPACE }}"
+let g:plugins_dir="/root/Documents/Vim/Chaplman.vim/test/plugins"
+""let g:autocreate_chaplmanenv = 1
+set runtimepath+=~/Documents/Vim/Chaplman.vim
+""set runtimepath+=~/Documents/Vim/easy-ddc.vim
+set runtimepath+=~/Documents/Vim/vital.vim
+

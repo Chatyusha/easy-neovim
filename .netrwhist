@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/root/.config/nvim/plugins'
-let g:netrw_dirhist_2='/root/.token'
-let g:netrw_dirhist_1='/root/.config/nvim/tests'
+let g:netrw_dirhist_3='/root/Documents/Vim/Chaplman.vim/bin/chaplman/python3'
+let g:netrw_dirhist_2='/root/Documents/Vim/Chaplman.vim/autoload/chaplman'
+let g:netrw_dirhist_1='/root/Documents/cppQubit/src'
