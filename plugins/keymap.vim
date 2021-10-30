@@ -1,0 +1,31 @@
+"{{ KeyMapping }}"
+inoremap <C-e> <Esc>$a
+inoremap <C-a> <Esc>^i
+noremap <C-e> $a
+noremap <C-a> ^i
+tnoremap <Esc> <C-\><C-n>
+inoremap jk <Esc>
+vnoremap jk <Esc> 
+inoremap <C-d> <BS>
+
+"{{ Complete }}"
+inoremap " ""<Left>
+inoremap ' ''<Left>
+inoremap { {}<Left>
+inoremap [ []<Left>
+inoremap ( ()<Left>
+inoremap {<CR> {<CR>}<Esc>k$a<CR>
+
+"{{{ Window }}}"
+inoremap <C-l> <Esc><C-w>li
+inoremap <C-h> <Esc><C-w>hi
+inoremap <C-j> <Esc><C-w>ji
+inoremap <C-k> <Esc><C-w>ki
+noremap <C-l> <C-w>l
+noremap <C-l> <C-w>l
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+tnoremap <C-l> <C-w>l
+tnoremap <C-h> <C-w>h
+tnoremap <C-j> <C-w>j
+tnoremap <C-k> <C-w>k

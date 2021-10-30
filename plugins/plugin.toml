@@ -1,6 +1,5 @@
 [[plugins]]
 repo = 'Shougo/ddc.vim'
-hook_add = 'runtime src/ddc.vim'
 
 [[plugins]]
 repo = 'Shougo/ddc-around'
@@ -18,13 +17,7 @@ repo = 'vim-denops/denops.vim'
 repo = 'LumaKernel/ddc-file'
 
 [[plugins]]
-repo = 'prabirshrestha/async.vim'
-
-[[plugins]]
 repo = 'prabirshrestha/vim-lsp'
-
-[[plugins]]
-repo = 'shun/ddc-vim-lsp'
 
 [[plugins]]
 repo = 'mattn/vim-lsp-settings'
@@ -32,3 +25,12 @@ repo = 'mattn/vim-lsp-settings'
 [[plugins]]
 repo = 'hrsh7th/vim-vsnip'
 hook_add = 'runtime src/vsnip.vim'
+
+[[plugins]]
+repo = 'hrsh7th/vim-vsnip-integ'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete-lsp.vim'
